@@ -1,0 +1,144 @@
+/* 根据设计稿来写，container最大宽度为1280 */
+@media screen and (min-width: 1200px){
+  .container{
+    width: 1280px;
+  }
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.logo img{
+  width: 100%;
+}
+
+.nav{
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.nav a{
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 30px;
+  font-size: 16px;
+}
+.nav a:hover{
+  background-color:rgba(255, 236, 240);
+  color: #333;
+}
+
+.news li{
+  float: left;
+  width:25%;
+  height: 115px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+.news li:nth-child(3){
+  padding-right: 0;
+  padding-left: 5px;
+}
+
+.news li:nth-child(5){
+  padding-right: 0;
+  padding-left: 5px;
+}
+.news li:nth-child(1){
+  width: 50%;
+  height: 240px;
+  padding-right: 10px;
+}
+
+.news li a{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.news li a img{
+  width:100%;
+  height: 100%;
+}
+
+.news li a p{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,.5);
+  font-size: 12px;
+  width: 100%;
+  height: 22px;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+.news li:nth-child(1) p{
+  height: 36px;
+  line-height: 36px;
+  font-size:20px;
+  padding: 0 10px;
+}
+
+.publish{
+  border-top: 1px solid #ccc;
+}
+
+.publish .row{
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.publish a img{
+  width: 100%;
+}
+
+.pic{
+  margin-top: 10px;
+}
+
+.bgr1 img{
+  width: 100%;
+}
+.bgr2 img{
+  width: 100%;
+}
+
+.hot{
+  display: block;
+  margin-top: 20px;
+  padding: 0 20px 20px 20px;
+  border: 1px solid #ccc;
+}
+
+.hot span{
+  margin-bottom: 20px;
+
+}
+.hot p{
+  font-size: 12px;
+}
+
+.l{
+  margin-top: 10px;
+}
+.m{
+  margin-top: 10px;
+}
+.r{
+  margin-top: 10px;
+}
