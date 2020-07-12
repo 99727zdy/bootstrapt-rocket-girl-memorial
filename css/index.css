@@ -5,6 +5,8 @@
   }
 }
 
+
+
 ul{
   list-style-type: none;
   margin: 0;
@@ -19,6 +21,16 @@ a {
 a:hover{
   text-decoration: none;
 }
+.logo span{
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+.logo{
+  background-color: purple;
+}
 .logo img{
   width: 100%;
 }
@@ -26,7 +38,6 @@ a:hover{
 .nav{
   margin-top: 10px;
   background-color: #fff;
-  border: 1px solid #ccc;
 }
 .nav a{
   display: block;
@@ -38,6 +49,18 @@ a:hover{
 .nav a:hover{
   background-color:rgba(255, 236, 240);
   color: #333;
+}
+
+@media screen and (max-width:921px){
+  .nav li{
+    float: left;
+    width: 16.66%;
+  }
+  .nav a{
+    padding-left: 0;
+    text-align: center;
+  }
+
 }
 
 .news li{
@@ -93,6 +116,21 @@ a:hover{
   font-size:20px;
   padding: 0 10px;
 }
+@media screen and (max-width:767px){
+  .nav{
+    margin: 0;
+  }
+  .nav a{
+    font-size: 13px;
+  }
+  .news li:nth-child(1){
+    width: 100%;
+    padding-right: 0;
+  }
+  .news li{
+    width: 50%;
+  }
+}
 
 .publish{
   border-top: 1px solid #ccc;
@@ -109,6 +147,8 @@ a:hover{
 
 .pic{
   margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .bgr1 img{
