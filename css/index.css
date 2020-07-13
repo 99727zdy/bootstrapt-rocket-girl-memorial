@@ -5,8 +5,6 @@
   }
 }
 
-
-
 ul{
   list-style-type: none;
   margin: 0;
@@ -50,7 +48,7 @@ a:hover{
   background-color:rgba(255, 236, 240);
   color: #333;
 }
-
+/* iPad屏幕下 */
 @media screen and (max-width:921px){
   .nav li{
     float: left;
@@ -116,6 +114,7 @@ a:hover{
   font-size:20px;
   padding: 0 10px;
 }
+/* 手机屏幕下 */
 @media screen and (max-width:767px){
   .nav{
     margin: 0;
